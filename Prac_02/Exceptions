@@ -1,0 +1,5 @@
+1. it will occur when you enter a non integer value
+
+2. it will occur when you enter zero as the denominator
+
+3. yes you add in a while loop so that you cant enter a zero
