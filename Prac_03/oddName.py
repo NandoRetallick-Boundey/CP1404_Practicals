@@ -7,4 +7,3 @@ while len(name) == 0:
 for char in range(0, len(name), 2):
     if char % 2 == 0:
         print("{}".format(name[char]), end="")
-
