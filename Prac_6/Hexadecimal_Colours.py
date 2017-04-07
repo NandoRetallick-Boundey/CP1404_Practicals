@@ -13,4 +13,6 @@ colour = input("Enter a colour: ").upper()
 while colour != "":
     if colour in HEXADECIMAL_COLOUR:
         print("{:10} is {}".format(colour, HEXADECIMAL_COLOUR[colour]))
+    else:
+        print("Invalid colour")
     colour = input("Enter a colour: ").upper()
